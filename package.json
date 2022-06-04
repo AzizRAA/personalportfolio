@@ -196,7 +196,6 @@
     "has-flag": "^4.0.0",
     "has-unicode": "^2.0.1",
     "has-yarn": "^2.1.0",
-    "hint": "^6.2.0",
     "hosted-git-info": "^5.0.0",
     "html-encoding-sniffer": "^3.0.0",
     "html-tags": "^3.2.0",
@@ -543,6 +542,7 @@
     "zwitch": "^1.0.5"
   },
   "devDependencies": {
+    "hint": "^6.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
