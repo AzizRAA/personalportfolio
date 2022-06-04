@@ -20,7 +20,7 @@ li {
   
   .hero {
     background: rgb(32, 30, 29);
-    background-image: url("Illustration.png.");
+    background-image: url(./Illustration.png);
     display: flex;
     background-position: 100% 100%;
     flex-direction: column;
