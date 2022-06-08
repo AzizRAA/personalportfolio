@@ -48,8 +48,6 @@ nav ul li {
 }
 
 .int {
-  width: 49.7vh;
-  height: 13.7vh;
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -60,8 +58,7 @@ nav ul li {
 }
 
 h3 {
-  width: 49.7vh;
-  height: 4.1vh;
+  width: 100%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -71,7 +68,6 @@ h3 {
 }
 
 .descript {
-  width: 49.77vh;
   font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 400;
@@ -96,15 +92,6 @@ footer ul li {
   font-size: 3.3vh;
   line-height: 6.5vh;
   font-weight: 400;
-}
-
-.work ul li {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2.5vh;
-  line-height: 3.04vh;
-  color: #091e42;
 }
 
 .project ul {
@@ -207,7 +194,6 @@ hr {
   font-size: 20px;
   line-height: 3.04vh;
   width: 18%;
-
 }
 
 #languagex {
@@ -237,7 +223,6 @@ hr {
   width: 30%;
   margin-left: 1%;
   align-self: center;
-
 }
 
 #languagev {
@@ -393,7 +378,6 @@ button:hover {
   min-width: 40vh;
   padding: 0%;
   margin: 5%;
-
   display: grid;
   grid-template-columns: auto;
   width: 90%;
