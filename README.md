@@ -1,18 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Personal portfolio
 
-It is my first project in Microverse.
-
+added contact form to the main personal portfolio project
 
 ## Built With
 
-- HTML
-- CSS
+ Use HTML5 semantic tags
+ Use css3
+ Use git
+ Use linter for error check
+ 
+## 🤝 Special thanks for:
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
+[Ambrose](https://github.com/Ambrosegithub) contributed greatly
+[Tracy](https://github.com/Elfin-git) contributed greatly
 
 ## Show your support
 
