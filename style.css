@@ -407,11 +407,11 @@
     top: 100%;
   }
 
-  /*
+ 
   .work .container .projects .secondary-projects .project:hover button {
     top: 89%;
   }
-*/
+
   .work .projects .secondary-projects .project:hover .over {
     display: none;
   }
@@ -604,7 +604,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.contact form #info input {
+.contact form .info-mail input {
   border: none;
   background-color: white;
   width: 100%;
@@ -616,7 +616,7 @@
   outline: none;
 }
 
-.contact form #inf #info:last-child input {
+.contact form .text-info-div .info-mail:last-child input {
   display: none;
 }
 
@@ -690,16 +690,16 @@
     width: 60%;
   }
 
-  .contact form #inf {
+  .contact form .text-info-div {
     display: flex;
     justify-content: space-between;
   }
 
-  .contact form #inf #info {
+  .contact form .text-info-div .info-mail {
     flex-basis: 47%;
   }
 
-  .contact form #inf #info:last-child input {
+  .contact form .text-info-div .info-mail:last-child input {
     display: block;
   }
 
@@ -709,7 +709,7 @@
   }
 
   .contact form .submit input {
-    width: 40%;
+    width: 25%;
   }
 }
 
