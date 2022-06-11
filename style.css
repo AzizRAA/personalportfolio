@@ -407,11 +407,10 @@
     top: 100%;
   }
 
-  /*
   .work .container .projects .secondary-projects .project:hover button {
     top: 89%;
   }
-*/
+  
   .work .projects .secondary-projects .project:hover .over {
     display: none;
   }
