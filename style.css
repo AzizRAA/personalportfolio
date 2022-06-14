@@ -127,7 +127,7 @@
   margin-bottom: 15px;
 }
 
-.headline .headline-container .p h3 {
+.headline .headline-container .p h2 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
@@ -207,7 +207,7 @@
   width: 100%;
 }
 
-.work .container .projects .main-project h3 {
+.work .container .projects .main-project h2 {
   font-size: 32px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
@@ -261,7 +261,7 @@
 }
 
 .work .container .projects .main-project .see-project:active {
-  background-color: #dc5304;
+  background-color: #732C02;
   border: solid 1px white;
   color: white;
 }
@@ -484,7 +484,7 @@
 }
 
 .about .container .about-me > .button2:active {
-  background-color: #e35707;
+  background-color: #732C02;
   border: solid 1px #1c1a19;
   color: white;
 }
@@ -664,7 +664,7 @@
 }
 
 .contact form .submit input:active {
-  background-color: #e05304;
+  background-color: #732C02;
   border: solid 1px white;
   color: white;
 }
