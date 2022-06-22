@@ -9,32 +9,40 @@
     <title>Personal Portfolio</title>
   </head>
   <body>
-
     <!--toolbar-->
-    <header class="header">
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="logo">
-            <a href="#">Azizbek Ruzmatov</a>
-          </div>
-          <button type="button" class="nav-toggler">
-            <span class="top"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-          </button>
-          <nav class="nav">
-            <ul>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#"><img src="img/Union.svg" alt="mail"></a></li>
+    <header>
+      <nav class="navbar top">
+          <a class="logo" href="#">Azizbek Ruzmatov</a>
+           <ul class="nav-menu">
+             <li class="nav-item"><a href="#work" class="nav-link">Portfolio</a> </li>
+             <div class="divider-menu"></div>
+             <li class="nav-item"> <a href="#about" class="nav-link">About</a> </li>
+             <div class="divider-menu"></div>
+             <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+             <div class="divider-menu"></div>
+             <li class="cancel-menu"><a href="#navbar" class="nav-link"><img src="img/Icon.svg" alt="cancel-button"></a></li>
+           </ul>
+           <div class="hamburger">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           </div>
+       </nav>
+
+       <div id="desktop-header">
+        <a class="logo" href="#">Azizbek Ruzmatov</a>
+          <nav id = "navigation">
+            <ul id = "menu">
+              <li> <a href="#"> Portfolio</a></li>
+              <li> <a href="#"> About</a></li>
+              <li> <a href="#"> Contact</a></li>
+              <li> <a href="#"> <img src="img/Union.svg" alt ="mail"/></a></li>
             </ul>
           </nav>
         </div>
-      </div>
-    </header>
-    <!--head -->
+      </header>
 
+    <!--head -->
     <section class="headline">
       <div class="headline-container container">
         <div class="p">
@@ -59,7 +67,7 @@
     </section>
 
     <!--work -->
-    <section class="work">
+    <section id="work">
       <div class="container">
         <div class="sechr">
           <h1>My Recent Work</h1>
@@ -78,7 +86,7 @@
                   <li class="lang"><a class="a" href="#">bootstrap</a></li>
                   <li class="lang"><a class="a" href="#">Ruby</a></li>
                 </ul>
-                <button type="button" class="see-project">See Project</button>
+                <button class="see-project">See Project</button>
               </div>
             </div>
           </div>
@@ -95,7 +103,7 @@
                   </ul>
                 </div>
               </div>
-              <button type="button">See Project</button>
+              <button>See Project</button>
             </div>
             <div class="project img-2">
               <div class="over">
@@ -109,7 +117,7 @@
                   </ul>
                 </div>
               </div>
-              <button type="button">See Project</button>
+              <button>See Project</button>
             </div>
             <div class="project img-3">
               <div class="over">
@@ -123,7 +131,7 @@
                   </ul>
                 </div>
               </div>
-              <button type="button">See Project</button>
+              <button>See Project</button>
             </div>
             <div class="project img-1">
               <div class="over">
@@ -137,7 +145,7 @@
                   </ul>
                 </div>
               </div>
-              <button type="button">See Project</button>
+              <button>See Project</button>
             </div>
             <div class="project img-2">
               <div class="over">
@@ -151,7 +159,7 @@
                   </ul>
                 </div>
               </div>
-              <button type="button">See Project</button>
+              <button>See Project</button>
             </div>
             <div class="project img-3">
               <div class="over">
@@ -165,7 +173,7 @@
                   </ul>
                 </div>
               </div>
-              <button type="button">See Project</button>
+              <button>See Project</button>
             </div>
           </div>
         </div>
@@ -173,14 +181,14 @@
     </section>
  
     <!--about-->
-    <section class="about">
+    <section id="about">
       <img class="desktop-Illustr" src="img/About/about.svg" alt="#"/>
       <img class="mobile-Illustr" src="img/About/aboutmobile.svg" alt="about"/>
       <div class="container">
         <article class="about-me">
           <h1>About Me</h1>
           <p class="paragraph2">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
-          <button type="button" class="button2">Get My Resume</button>
+          <button class="button2">Get My Resume</button>
         </article>
         <hr/>
         <div class="my-skills">
@@ -219,7 +227,7 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section id="contact">
       <div class="container">
         <h1 class="contact-header">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
         <form action="https://formspree.io/f/mpzbbknz" method="POST">

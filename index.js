@@ -1,14 +1,12 @@
-const navToggler = document.querySelector('.nav-toggler');
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
-function navToggle() {
-  navToggler.classList.toggle('active');
-  const nav = document.querySelector('.nav');
-  nav.classList.toggle('open');
-  if (nav.classList.contains('open')) {
-    nav.style.maxHeight = `${nav.scrollHeight}px`;
-  } else {
-    nav.removeAttribute('style');
-  }
-}
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
 
-navToggler.addEventListener('click', navToggle);
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
