@@ -15,11 +15,11 @@
           <a class="logo" href="#">Azizbek Ruzmatov</a>
            <ul class="nav-menu">
              <li class="nav-item"><a href="#work" class="nav-link">Portfolio</a> </li>
-             <div class="divider-menu"></div>
+       
              <li class="nav-item"> <a href="#about" class="nav-link">About</a> </li>
-             <div class="divider-menu"></div>
+
              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-             <div class="divider-menu"></div>
+
              <li class="cancel-menu"><a href="#navbar" class="nav-link"><img src="img/Icon.svg" alt="cancel-button"></a></li>
            </ul>
            <div class="hamburger">
@@ -66,6 +66,9 @@
       </div>
     </section>
 
+
+ <div class="cards">
+     <div class="card">
     <!--work -->
     <section id="work">
       <div class="container">
@@ -86,7 +89,7 @@
                   <li class="lang"><a class="a" href="#">bootstrap</a></li>
                   <li class="lang"><a class="a" href="#">Ruby</a></li>
                 </ul>
-                <button class="see-project" data-modal-target="#modal">See Project</button>
+                <button type="button" class="see-project" data-modal-target="#modal">See Project</button>
               </div>
             </div>
           </div>
@@ -103,7 +106,7 @@
                   </ul>
                 </div>
               </div>
-              <button data-modal-target="#modal">See Project</button>
+              <button type="button" data-modal-target="#modal">See Project</button>
             </div>
             <div class="project img-2">
               <div class="over">
@@ -117,7 +120,7 @@
                   </ul>
                 </div>
               </div>
-              <button data-modal-target="#modal">See Project</button>
+              <button type="button" data-modal-target="#modal">See Project</button>
             </div>
             <div class="project img-3">
               <div class="over">
@@ -131,7 +134,7 @@
                   </ul>
                 </div>
               </div>
-              <button data-modal-target="#modal">See Project</button>
+              <button type="button" data-modal-target="#modal">See Project</button>
             </div>
             <div class="project img-1">
               <div class="over">
@@ -145,7 +148,7 @@
                   </ul>
                 </div>
               </div>
-              <button data-modal-target="#modal">See Project</button>
+              <button type="button" data-modal-target="#modal">See Project</button>
             </div>
             <div class="project img-2">
               <div class="over">
@@ -159,7 +162,7 @@
                   </ul>
                 </div>
               </div>
-              <button data-modal-target="#modal">See Project</button>
+              <button type="button" data-modal-target="#modal">See Project</button>
             </div>
             <div class="project img-3">
               <div class="over">
@@ -173,16 +176,20 @@
                   </ul>
                 </div>
               </div>
-              <button data-modal-target="#modal">See Project</button>
+              <button type="button" data-modal-target="#modal">See Project</button>
             </div>
           </div>
         </div>
       </div>
     </section>
- 
+      <div class="cards-section"></div>
+            
+            <div id="overlay"></div>
+ </div>
+ </div>
 <!--modal-->
 
-  <section class="modal" id="modal">
+  <!-- <section class="modal" id="modal">
     <div class="modal-header">
       <img class="modal-img" src="img/popup.svg" alt="popup"/>
       <div class="project-b">
@@ -202,7 +209,7 @@
         <div class="bts"><a style="color:white; text-decoration:none;" href="https://github.com/AzizRAA/personalportfolio">See Source</a><img src="img/live.svg" alt="smth"/></div>
     </div>
   </section>
-  <div id="overlay"></div>
+  <div id="overlay"></div> -->
 
     <!--about-->
     <section id="about">
@@ -254,7 +261,7 @@
     <section id="contact">
       <div class="container">
         <h1 class="contact-header">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
-        <form action="https://formspree.io/f/mpzbbknz" method="POST">
+        <form action="https://formspree.io/f/xjvlzgjo" method="POST">
           <div class="text-info-div">
             <p class="info-mail">
               <input maxlength="30" required type="text" placeholder="Name" name="first-name"/>
@@ -264,16 +271,16 @@
             </p>
           </div>
           <p class="info-mail">
-            <input required type="email" placeholder="Email address" name="Email"/>
+            <input required type="email" id="email" placeholder="Email address" name="Email"/>
           </p>
           <textarea required maxlength="500" name="massage" placeholder="Enter text here"></textarea>
-          <p class="submit">
-            <input type="submit" name="size" value="Get in touch" />
-          </p>
+          <div>
+       <button id="submit-button" type="submit">Get in touch</button></div>
+
         </form>
       </div>
     </section>
-    
+    <div id="error"></div>
     <footer class="footer">
       <ul class="soc-icons">
          <li><a href="#"><img src="img/github.svg" alt="github"/></a></li>
@@ -283,6 +290,10 @@
          <li><a href="#"><img src="img/medium.svg" alt="medium"/></a></li>
       </ul>
     </footer>
+
+
     <script src="index.js"></script>
+
+
   </body>
 </html>
